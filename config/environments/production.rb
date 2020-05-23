@@ -77,6 +77,5 @@ Rails.application.configure do
 
   # Set Action Cable server url for consumer connection
   # config.action_cable.url = 'ws://cable.example.com:28080'
-  config.action_cable.url = 'ws://anycable-demo-cable.herokuapp.com:3334/cable'
-  
+  config.action_cable.url = 'ws://ec2-54-202-110-170.us-west-2.compute.amazonaws.com:3334/cable'
 end
