@@ -74,6 +74,7 @@ GEM
     grpc (1.28.0)
       google-protobuf (~> 3.11)
       googleapis-common-protos-types (~> 1.0)
+    grpc-tools (1.28.0)
     i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     jbuilder (2.10.0)
@@ -178,6 +179,8 @@ DEPENDENCIES
   anycable-rails
   byebug
   coffee-rails (~> 4.2)
+  grpc
+  grpc-tools
   jbuilder (~> 2.0)
   jquery-rails
   puma
