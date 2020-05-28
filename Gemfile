@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.1'
 
-gem 'pg'
+gem 'sqlite3'
 gem 'redis'
 gem 'puma'
 gem 'anycable-rails'
