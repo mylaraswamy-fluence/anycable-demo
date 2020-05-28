@@ -41,5 +41,6 @@ Rails.application.configure do
 
   # Set Action Cable server url for consumer connection
   config.action_cable.url = 'ws://ec2-18-237-244-6.us-west-2.compute.amazonaws.com:3334/cable'
-  config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/]
+  config.action_cable.allowed_request_origins = ['http://ec2-18-237-244-6.us-west-2.compute.amazonaws.com']
+  # config.action_cable.allowed_request_origins = [/http:\/\/*/, /https:\/\/*/]
 end
